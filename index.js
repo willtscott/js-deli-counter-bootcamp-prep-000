@@ -16,9 +16,10 @@ function currentLine(line){
     var val = "The line is currently: ";
     for(let i=1; i<=line.length; i++) {
       val += i+". "+line[i-1];
-      if(i<line.length-1) {
+      if(i<=line.length-1) {
         val+=", " }
     }
     return val;
   } 
 }
+  
