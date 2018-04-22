@@ -1,6 +1,7 @@
+
 function takeANumber(line, name){
   line.push(name);
-  return "Welcome, Ada. You are number "+(line.length-1)+" in line." }
+  return "Welcome, "+name+". You are number "+line.length+" in line." }
   
 function nowServing(line) {
   if(line.length<1) { 
@@ -23,3 +24,5 @@ function currentLine(line){
   } 
 }
   
+    
+
