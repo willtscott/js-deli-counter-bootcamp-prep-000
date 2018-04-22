@@ -14,10 +14,10 @@ function currentLine(line){
     return "The line is currently empty." }
   else {
     var val = "The line is currently: ";
-    for(let i=0; i<line.length; i++) {
-      val += i+". "+line[i];
+    for(let i=1; i<=line.length; i++) {
+      val += i+". "+line[i-1];
       if(i<line.length-1) {
-        val+="," }
+        val+=", " }
     }
     return val;
   } 
